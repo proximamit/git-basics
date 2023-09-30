@@ -1,0 +1,11 @@
+#########################################################################################################
+# Status: Your code is ready to be pushed to bitbucket/github 
+#========================================================================================================
+If you already have code ready to be pushed to your repository then run these commands in your terminal.
+
+cd your-project
+git init
+git add --all
+git commit -m "Commit Message"
+git remote add origin <git remote URL>
+git push -u origin <git remote URL>

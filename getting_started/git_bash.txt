@@ -1,0 +1,8 @@
+Git Bash 
+=========
+
+Microsoft Windows uses Windows command prompt and terminal is not available by default. 
+For using git on windows, Git Bash is a better option. 
+Git Bash is a package that installs Bash, some common bash utilities, and Git on a Windows operating system
+Git Bash is offered to provide a terminal Git experience.
+

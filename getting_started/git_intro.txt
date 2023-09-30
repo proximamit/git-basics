@@ -1,0 +1,79 @@
+############################################################################################################
+# What is git? 
+############################################################################################################
+Ans (1) git is a distributed version control system
+
+Ans (2) Git is the free and open source distributed version control system
+
+Ans (3) Git is a fast, scalable, distributed revision control system with a rich command set
+
+# Explanations 
+Git is written in C
+
+Git is a set of command line utility programs that are designed to execute on a Unix style command-line environment (command line terminals) 
+on Linux and macOS
+
+############################################################################################################
+# How is it different from other SCM tools? 
+or 
+# What are the advantages of git? 
+Advantage #1 Branching and Merging
+-----------------------------------
+The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model.
+
+Advantage#2 Small and Fast
+-----------------------------------
+
+nearly all operations are performed locally
+
+
+Advantage#3 Distributed
+-----------------------------------
+there is no single point of failure with Git
+
+instead of doing a "checkout" of the current tip of the source code, you do a "clone" of the entire repository
+
+every user essentially has a full backup of the main server. Each of these copies could be pushed up to replace the main server in the event of a crash or corruption.
+
+
+Advantage#4 Data Assurance
+-----------------------------------
+
+Every file and commit is checksummed and retrieved by its checksum when checked back out. It's impossible to get anything out of Git other than the exact bits you put in.
+
+Advantage#5 Staging Area 
+-----------------------------------
+
+Unlike the other systems, Git has something called the "staging area" or "index". This is an intermediate area where commits can be formatted and reviewed before completing the commit.
+
+
+Advantage#6 Free and Open Source
+-----------------------------------
+
+Git is released under the GNU General Public License version 2.0, which is an open source license.
+
+=======================================================================================================
+Git has three main states that your files can reside in: modified, staged, and committed
+#staging area
+The staging area is a file, generally contained in your Git directory, that stores information about
+what will go into your next commit. Its technical name is  "index"
+
+#staged
+If a particular version of a file has been modified and was added to the staging area, it is staged
+
+#modified
+And if it was changed since it was checked out but has not been staged, it is modified
+
+# committed
+If a particular version of a file is in the Git directory, it’s considered committed
+
+
+=======================================================================================================
+
+
+
+
+
+
+
+

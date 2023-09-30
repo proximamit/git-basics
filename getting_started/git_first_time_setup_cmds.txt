@@ -1,0 +1,64 @@
+########################################################################
+
+
+
+#1 SETUP - Configuring user information
+
+# commands 
+git config --global user.name "firstname lastname"
+git config --global user.email "valid-email"
+
+
+example: if firstname=us and lastname=er 
+-------------------------------------------------
+git config --global user.name "us er"
+git config --global user.email "us.er@gmail.com"
+-------------------------------------------------
+
+
+########################################################################
+#Initialize an existing directory as a Git repository
+
+The Git directory is where Git stores the metadata and object database for your project. This is the
+most important part of Git, and it is what is copied when you clone a repository from another
+computer.
+
+=======================================================================================================
+
+
+A git repository must first be created before you can make commits or do anything else with it. We use the git init command to create a new Git repository.
+
+----------
+git init
+----------
+
+#retrieve an entire repository from a hosted location via URL
+#git clone [url]
+
+example:
+---------------------------------------------
+git clone https://github.com/GNOME/meld.git
+---------------------------------------------
+
+########################################################################
+
+# git config --list 
+
+# view the current global configuration 
+git config --global  --list
+
+# Similarly 
+git config --system --list 
+
+Note: --local can only be used inside a git repository
+git config --local --list 
+
+# To get specific config 
+git config --global --get user.name
+git config --global --get user.email
+
+
+
+
+
+

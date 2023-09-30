@@ -1,0 +1,27 @@
+git-basics$ tree
+.
+├── examples
+│   └── git_version.txt
+├── getting_started
+│   ├── git_bash.txt
+│   ├── git_first_time_setup_cmds.txt
+│   └── git_intro.txt
+├── git_cheatsheets
+│   ├── git-cheat-sheet-1.pdf
+│   ├── git-cheat-sheet-2.pdf
+│   ├── git-cheat-sheet-3.pdf
+│   ├── git-cheat-sheet-4.pdf
+│   └── git-cheat-sheet.pdf
+├── git_cmds.txt
+├── installation
+│   ├── gnu-linux
+│   │   └── ubuntu
+│   │       └── git_installation_linux.txt
+│   └── windows
+│       └── git_installation_on_windows.txt
+└── pics
+    ├── staging_area.JPG
+    └── working_dir_staging_area_and_git_repository.JPG
+
+8 directories, 14 files
+

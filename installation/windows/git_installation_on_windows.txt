@@ -1,0 +1,43 @@
+###########################################
+
+Install git bash 
+from 
+https://git-scm.com/download/win
+
+##########################################
+# git installation
+########################################### 
+
+
+# Check if git is already installed or not
+# Open command prompt and check version 
+
+# When not installed 
+C:\Users\user>git version
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+# When installed 
+C:\Users\user>git version
+git version 2.42.0.windows.2
+
+# To install (if not already installed) 
+
+https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe
+
+
+
+# After Installation, start the git bash 
+
+# Windows >> Start >> git bash 
+
+
+
+
+
+
+
+
+
+
+
